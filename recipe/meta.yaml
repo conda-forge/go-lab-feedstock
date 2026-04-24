@@ -10,7 +10,7 @@ source:
   sha256: b34b08cb20d16f541eb3bf428e0224b4905ee40bda9394e7da4df756ba1aa109
 
 build:
-  number: 0
+  number: 1
   script:
     - go install -ldflags "-X main.version={{ version }}" .
 
