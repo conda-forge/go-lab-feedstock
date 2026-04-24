@@ -1,5 +1,5 @@
 {% set name = "lab" %}
-{% set version = "0.18.0" %}
+{% set version = "0.22.0" %}
 
 package:
   name: go-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/zaquestion/lab/archive/v{{ version }}.tar.gz
-  sha256: b34b08cb20d16f541eb3bf428e0224b4905ee40bda9394e7da4df756ba1aa109
+  sha256: ff5b184db71818d0c342788fd5b38ab7c7af8d8561c683b5d08ffd4075116a0d
 
 build:
   number: 0
